@@ -1,4 +1,4 @@
-# SpringSecurity
+# Spring Security
 Um projeto simples que visa aplicar os conceitos de spring security com tokens de auth para uma api de users...
 
 ## Stack utilizada
