@@ -8,7 +8,7 @@ import lombok.*;
 @Setter
 @AllArgsConstructor
 
-public class userCreate {
+public class userCreateRequest {
 
     @NotNull
     private String nome;

@@ -7,7 +7,7 @@ import lombok.*;
 @AllArgsConstructor
 @Getter
 @Setter
-public class userLogin {
+public class userLoginRequest {
 
     @NotNull
     private String username;
