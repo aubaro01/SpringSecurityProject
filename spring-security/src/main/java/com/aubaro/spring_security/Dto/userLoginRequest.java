@@ -9,10 +9,10 @@ import lombok.*;
 @Setter
 public class userLoginRequest {
 
-    @NotNull
+    @NotNull(message = "O username não deve estar vazia ou null!!!")
     private String username;
 
-    @NotEmpty
+    @NotEmpty(message = "A password não deve estar vazia ou null!!!")
     private String password;
 
 }
