@@ -21,6 +21,6 @@ public class userCreateRequest {
     private String password;
 
     @NotNull
-    @Email(message = "Email incorreto")
+    @Email(message = "Email incorreto!")
     private String email;
 }
