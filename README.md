@@ -64,6 +64,8 @@ Apagar a conta de um user
 ## 
 ## Fluxo 
 
+ao inves de jpa
 
+private final NamedParameterJdbcTemplate jdbcTemplate;
 
 
