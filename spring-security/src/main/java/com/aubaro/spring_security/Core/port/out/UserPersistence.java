@@ -1,5 +1,8 @@
 package com.aubaro.spring_security.Core.port.out;
 
-public interface userPersistence {
+import com.aubaro.spring_security.Core.Model.UserModel;
 
+public interface UserPersistence {
+
+    UserModel createUser (UserModel model);
 }

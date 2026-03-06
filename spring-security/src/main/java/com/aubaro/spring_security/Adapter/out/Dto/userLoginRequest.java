@@ -1,4 +1,4 @@
-package com.aubaro.spring_security.Dto;
+package com.aubaro.spring_security.Adapter.out.Dto;
 
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.NotNull;

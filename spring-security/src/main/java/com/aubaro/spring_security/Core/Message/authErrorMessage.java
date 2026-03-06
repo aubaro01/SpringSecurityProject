@@ -11,5 +11,9 @@ import lombok.ToString;
 @ToString
 public interface authErrorMessage Implementation ResponseEnvelopeCode.ResponseEnvelopeCodes
 {
+    H0001("H0001", "Teste")
+    ;
 
+    private final String code;
+    private final String message;
 }

@@ -1,5 +1,8 @@
 package com.aubaro.spring_security.Core.port.in;
 
-public interface userOperations {
+import com.aubaro.spring_security.Core.Model.UserModel;
 
+public interface UserOperations {
+
+    UserModel createUser(UserModel model);
 }

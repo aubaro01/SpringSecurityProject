@@ -1,4 +1,4 @@
-package com.aubaro.spring_security.Model;
+package com.aubaro.spring_security.Core.Model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
