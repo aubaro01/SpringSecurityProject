@@ -27,7 +27,7 @@ public class UserModel {
     private String username;
 
     @NotBlank(message = "O campo password é obrigatório!!")
-    @Size(max = 20, min = 10,  message = "A password não deve ter mais de 20 caracteres!")
+    @Size(max = 20, min = 8,  message = "A password não deve ter mais de 20 caracteres!")
     private String password;
 
     @NotBlank(message = "O campo email é obrigatório!!")
